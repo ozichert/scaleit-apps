@@ -1,0 +1,8 @@
+version: '3.1'
+services:
+    de-ozichert-hello-world:
+        image: domain:5000/scaleit-app-pool/de-ozichert-hello-world:0.1
+        build: ./DomainSoftware/app/
+        restart: always
+        ports:
+          - 8080
