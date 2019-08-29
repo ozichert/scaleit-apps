@@ -1,0 +1,9 @@
+version: '2'
+services:
+  de-ozichert-hello-world:
+    image: domain:5000/scaleit-app-pool/de-ozichert-hello-world:0.1
+    restart: always
+    labels:
+        rap.host: hello-world
+        rap.sso_disabled: false
+        io.rancher.container.pull_image: always

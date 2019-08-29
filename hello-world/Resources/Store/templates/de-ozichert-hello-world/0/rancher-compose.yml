@@ -1,0 +1,5 @@
+.catalog:
+  name: Hello World Example Application
+  version: 0.1.1
+  description: "An example application"
+  minimum_rancher_version: v1.6
